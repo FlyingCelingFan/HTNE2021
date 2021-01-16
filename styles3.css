@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: white;
+}
+
+p, li {
+/* centers text */
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100%;
+    font-size: 2vw;
+    padding: 0px;
+    text-decoration: underline;
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+#banner {
+  background: #36383f;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: -75px;
+}
+
+#title {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+#logo {
+    object-fit: cover;
+    transform: scale(0.2);
+}
+
+#content {
+    height: 90vw;
+    width: 95%;
+    margin: auto;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
