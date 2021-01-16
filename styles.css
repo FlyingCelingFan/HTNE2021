@@ -45,3 +45,14 @@ body {
     color: white;
 
 }
+
+#bigbox {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    height: 800px;
+    /*The color is beige for visibility on the border,
+      set to background color when finished*/
+    background-color: beige;
+}
