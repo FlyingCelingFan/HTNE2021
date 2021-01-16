@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /*Background color for the whole webpage*/
+    background-color: whitesmoke;
+    margin: 0px;
+}
+
+/*Styles the whole navigation bar*/
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    transition: all 1s ease;
+}
+
+/*padding for the logo/website name to be spaced away from the other links*/
+#logo {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*style link box*/
+.navbar a {     
+    float: left;
+    display: block;
+    /*text color*/
+    color: #2C2F33;
+    text-align: center;
+    /*padding in this order: top right bottom left*/
+    padding: 20px 20px 20px 20px;
+    /*removes the underline when text with links are displayed*/
+    text-decoration: none;
+    transition: color .4s ease-in-out;
+}   
+
+/*moves links to the right add*/
+.navbar a.right {
+    float: right;
+}
+
+/*Inverts text color on the link when hovered over*/
+.navbar a:hover {
+    background-color: #2C2F33;
+    color: white;
+
+}
