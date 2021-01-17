@@ -19,19 +19,23 @@
 <div id="bigbox">
     <form>
     <h1>What grade are you in?</h1> 
-        <input type="text"  list="grade" placeholder="Choose here">
+        <input type="text"  list="grade" id="level" placeholder="Choose here" autocomplete="off">
             <datalist id="grade">
-                <option value="grade 9"></option>
-                <option value="grade 10"></option>
-                <option value="grade 11"></option>
-                <option value="grade 12"></option>
+                <option value="Grade 9"></option>
+                <option value="Grade 10"></option>
+                <option value="Grade 11"></option>
+                <option value="Grade 12"></option>
             </datalist>
      <br>
     <!--This button transitions to the next question-->
     <button id="moveFoward">next</button>
 
     <h1>What subject do you need help on?</h1>
-        <input type="text" list="subject" placeholder="Choose here">
+        <!--the option selected in the datalist has the id "subject."
+            <input> then takes the option selected "<list>" and stores it.
+            the Javascript file then looks for the id "sub," assigned to <input> and grabs it.
+            -->
+        <input type="text" list="subject" id="sub" placeholder="Choose here">
             <datalist id="subject">
                 <option value="Math">Math</option>  
                 <option value="English">English</option>
@@ -43,10 +47,11 @@
             <button id="moveBackward">go back</button>
             <!--This button Will lead them to the respective grade on the website-->
             <!--It will also lead to the bookmarked part of that grade page-->
-            <button id="nextPage">Find my resources</button>
+            <button id="begin">Find my resources</button>
         </form> 
             
 </div>
+<script type="text/javascript" src="app6.js"></script>
 
 </body>
 </html> 
