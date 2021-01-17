@@ -4,14 +4,17 @@ html, body {
   background-color: #dcdcdc;
 }
 
+#content {
+  padding-top: 10px;
+}
+
 h1 {
   padding: 10px 0;
 }
 
 h2{
-  padding: 0 0 10px 0;
+  padding: 5px 0;
 }
-
 
 h3 {
   font-size: 20px;
@@ -74,7 +77,6 @@ a:hover {
   width: 85%;
   margin: auto;
 }
-
 
 /* width */
 ::-webkit-scrollbar {
