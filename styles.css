@@ -15,7 +15,7 @@ body {
     display: flex;
 }
 
-/*padding for the logo/website name to be spaced away from the other links*/
+/*padding for the logo/website name to be spaced away from the other links t*/
 #logo {
     object-fit: cover;
     transform: scale(0.2);
