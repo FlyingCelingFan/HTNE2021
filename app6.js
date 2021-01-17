@@ -11,7 +11,7 @@ var page = "text";
 
     if (grade == "Grade 9") {
         if (grade == "Grade 9" && subject == "Math") {
-                window.location.pathname='C:/Users/Delta/Documents/code/GitHub/HTNE2021/index2.html';
+                window.location.pathname='HTNE2021/index2.html';
             return;
         }
         else if (grade == "Grade 9" && subject == "Science") {
