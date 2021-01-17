@@ -11,22 +11,21 @@ var page = "text";
 
     if (grade == "Grade 9") {
         if (grade == "Grade 9" && subject == "Math") {
-            document.getElementById("begin").onclick = function() {
                 window.location="index2.html";
-            }
-            return
+            
+            return;
         }
         else if (grade == "Grade 9" && subject == "Science") {
             page="index2.html#Science"
-            return
+            return;
         }
         else if (grade == "Grade 9" && subject == "English") {
             page="index2.html#English"
-            return
+            return;
         }
         else if (grade == "Grade 9" && subject == "Social Studies") {
             page="index2.html#Social_Studies"
-            return
+            return;
         }
         location = "index2.html";
         return;
