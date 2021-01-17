@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTNE2021</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<!--Navigation bar-->
+<div class="navbar">
+    <!--copy and  paste a the line under to add another box,
+        href refers to the file it will lead to when clicked on-->
+    <a href="index.html" id="logo">logo here</a>
+    <a href="index.html">Text</a>
+</div>
+
+
+<!--Main Content-->     
+<div id="bigbox">
+    <form>
+    <h1>What grade are you in?</h1> 
+        <input type="text"  list="grade" placeholder="Choose here">
+            <datalist id="grade">
+                <option value="grade 9"></option>
+                <option value="grade 10"></option>
+                <option value="grade 11"></option>
+                <option value="grade 12"></option>
+            </datalist>
+     <br>
+    <!--This button transitions to the next question-->
+    <button id="moveFoward">next</button>
+
+    <h1>What subject do you need help on?</h1>
+        <input type="text" list="subject" placeholder="Choose here">
+            <datalist id="subject">
+                <option value="Math">Math</option>  
+                <option value="English">English</option>
+                <option value="Science">Science</option>
+                <option value="Social Studies">Social Studies</option>
+            </datalist>
+            <br>
+            <!--This button will transition to the previous page-->
+            <button id="moveBackward">go back</button>
+            <!--This button Will lead them to the respective grade on the website-->
+            <!--It will also lead to the bookmarked part of that grade page-->
+            <button id="nextPage">Find my resources</button>
+        </form> 
+            
+</div>
+
+</body>
+</html> 
