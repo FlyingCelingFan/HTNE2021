@@ -9,45 +9,51 @@ var page = "text";
     var grade = document.getElementById("level").value;
     var subject = document.getElementById("sub").value;
 
-    document.getElementById("find").onclick = function() {
-         location.href="index2.html";
-     }
-
-    if (grade == "Grade 9" || subject == "Math") {
+    if (grade == "Grade 9") {
         if (grade == "Grade 9" && subject == "Math") {
-            page="index2.html#Math"
+            document.getElementById("begin").onclick = function() {
+                window.location="index2.html";
+            }
+            return
         }
-        if (grade == "Grade 9" && subject == "Science") {
+        else if (grade == "Grade 9" && subject == "Science") {
             page="index2.html#Science"
+            return
         }
-        if (grade == "Grade 9" && subject == "English") {
+        else if (grade == "Grade 9" && subject == "English") {
             page="index2.html#English"
+            return
         }
-        if (grade == "Grade 9" && subject == "Social Studies") {
+        else if (grade == "Grade 9" && subject == "Social Studies") {
             page="index2.html#Social_Studies"
+            return
         }
         location = "index2.html";
         return;
     }
 
-    if (grade == "Grade 10" || subject == "Math") {
+    if (grade == "Grade 10") {
         if (grade == "Grade 10" && subject == "Math") {
             page="index3.html#math"
+            return
         }
         if (grade == "Grade 10" && subject == "Science") {
             page="index3.html#Science"
+            return
         }
         if (grade == "Grade 10" && subject == "English") {
             page="index3.html#English"
+            return
         }
         if (grade == "Grade 10" && subject == "Social Studies") {
             page="index3.html#Social_Studies"
+            return
         }
         location = "index3.html";
         return;
     }
 
-    if (grade == "Grade 11" || subject == "Math") {
+    if (grade == "Grade 11") {
         if (grade == "Grade 11" && subject == "Math") {
             page="index2.html#math"
         }
@@ -64,7 +70,7 @@ var page = "text";
         return;
     }
 
-    if (grade == "Grade 12" || subject == "Math") {
+    if (grade == "Grade 12") {
         if (grade == "Grade 12" && subject == "Math") {
             page="index2.html#math"
         }
