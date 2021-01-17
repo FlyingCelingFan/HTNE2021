@@ -11,20 +11,19 @@ var page = "text";
 
     if (grade == "Grade 9") {
         if (grade == "Grade 9" && subject == "Math") {
-                window.location="index2.html";
-            
+                window.location.pathname='C:/Users/Delta/Documents/code/GitHub/HTNE2021/index2.html';
             return;
         }
         else if (grade == "Grade 9" && subject == "Science") {
-            page="index2.html#Science"
+                window.location.pathname='C:/Users/Delta/Documents/code/GitHub/HTNE2021/index2.html';
             return;
         }
         else if (grade == "Grade 9" && subject == "English") {
-            page="index2.html#English"
+               window.location.pathname='C:/Users/Delta/Documents/code/GitHub/HTNE2021/index2.html';
             return;
         }
         else if (grade == "Grade 9" && subject == "Social Studies") {
-            page="index2.html#Social_Studies"
+                window.location.pathname='C:/Users/Delta/Documents/code/GitHub/HTNE2021/index2.html';
             return;
         }
         location = "index2.html";
@@ -88,6 +87,10 @@ var page = "text";
 
 }
 
+
+document.getElementById("begin").onclick = function() {
+    nextPage();
+}
 
 /*nextPage onclick {
     run function nextPage()
