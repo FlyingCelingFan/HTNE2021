@@ -1,23 +1,42 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     /*Background color for the whole webpage*/
-    background-color: whitesmoke;
-    margin: 0px;
+    background-color: #dcdcdc;
+    margin: 0px;    
 }
 
 /*Styles the whole navigation bar*/
 .navbar {
     overflow: hidden;
-    background-color: white;
+    background-color: #36383f;
     position: sticky;
     top: 0;
-    transition: all 1s ease;
+    height: 100px;
+    display: flex;
 }
 
 /*padding for the logo/website name to be spaced away from the other links*/
 #logo {
-    padding-left: 10%;
-    padding-right: 10%;
+    object-fit: cover;
+    transform: scale(0.2);
+  }
+
+.res {
+    transition: 1s ease;
+    background-color: #36383f;
+    padding-top: 40px;
+}
+
+.res:hover{
+    background-color: #2C2F33;
+    color: white; 
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
 }
 
 /*style link box*/
@@ -25,7 +44,7 @@ body {
     float: left;
     display: block;
     /*text color*/
-    color: #2C2F33;
+    color: white;
     text-align: center;
     /*padding in this order: top right bottom left*/
     padding: 20px 20px 20px 20px;
@@ -40,11 +59,10 @@ body {
 }
 
 /*Inverts text color on the link when hovered over*/
-.navbar a:hover {
+/* .navbar a:hover {
     background-color: #2C2F33;
-    color: white;
-
-}
+    color: white; 
+} */
 
 #bigbox {
     width: 1000px;
@@ -54,5 +72,17 @@ body {
     height: 800px;
     /*The color is beige for visibility on the border,
       set to background color when finished*/
-    background-color: beige;
 }
+
+h1 {
+    padding-top: 10%;
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+
+
+/*INPUT GRADE 11 AND GRADE 12 FILES*/
