@@ -14,19 +14,70 @@ var page = "text";
     // }
 
     if (grade == "Grade 9" || subject == "Math") {
-        if (subject == "Math") {
-            page="index2.html#math"
+        if (grade == "Grade 9" && subject == "Math") {
+            page="index2.html#Math"
         }
-        if (subject == "Science") {
+        if (grade == "Grade 9" && subject == "Science") {
             
         }
-        if (subject == "English") {
+        if (grade == "Grade 9" && subject == "English") {
             
         }
-        if (subject == "Social Studies") {
+        if (grade == "Grade 9" && subject == "Social Studies") {
             
         }
         location = "index2.html";
+        return;
+    }
+
+    if (grade == "Grade 10" || subject == "Math") {
+        if (grade == "Grade 10" && subject == "Math") {
+            page="index2.html#math"
+        }
+        if (grade == "Grade 10" && subject == "Science") {
+            
+        }
+        if (grade == "Grade 10" && subject == "English") {
+            
+        }
+        if (grade == "Grade 10" && subject == "Social Studies") {
+            
+        }
+        location = "index3.html";
+        return;
+    }
+
+    if (grade == "Grade 11" || subject == "Math") {
+        if (grade == "Grade 11" && subject == "Math") {
+            page="index2.html#math"
+        }
+        if (grade == "Grade 11" && subject == "Science") {
+            
+        }
+        if (grade == "Grade 11" && subject == "English") {
+            
+        }
+        if (grade == "Grade 11" && subject == "Social Studies") {
+            
+        }
+        location = "index4.html";
+        return;
+    }
+
+    if (grade == "Grade 12" || subject == "Math") {
+        if (grade == "Grade 12" && subject == "Math") {
+            page="index2.html#math"
+        }
+        if (grade == "Grade 12" && subject == "Science") {
+            
+        }
+        if (grade == "Grade 12" && subject == "English") {
+            
+        }
+        if (grade == "Grade 12" && subject == "Social Studies") {
+            
+        }
+        location = "index5.html";
         return;
     }
 
