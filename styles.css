@@ -6,37 +6,63 @@ body {
 }
 
 /*Styles the whole navigation bar*/
-.navbar {
-    overflow: hidden;
-    background-color: #36383f;
-    position: sticky;
-    top: 0;
+#banner {
+    background: #36383f;
     height: 100px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-/*padding for the logo/website name to be spaced away from the other links t*/
-#logo {
-    object-fit: cover;
-    transform: scale(0.2);
-  }
-
-.res {
-    transition: 1s ease;
-    background-color: #36383f;
-    padding-top: 40px;
-}
-
-.res:hover{
-    background-color: #2C2F33;
-    color: white; 
-}
-
+  
 .img-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 10%;
+}
+  
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: -80px;
+}
+  
+#title {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+  
+#logo {
+    object-fit: cover;
+    transform: scale(0.2);
+}
+
+a {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: 1s ease;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #A9A9A9;
+}
+
+#begin {
+    padding: 3px 3px;
+}
+
+h1 {
+    padding-top: 40px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 /*style link box*/
@@ -74,14 +100,8 @@ body {
       set to background color when finished*/
 }
 
-h1 {
-    padding-top: 10%;
-    font-size: 80px;
-}
 
-h2 {
-    font-size: 40px;
-}
+
 
 
 
