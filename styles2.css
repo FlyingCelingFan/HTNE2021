@@ -20,6 +20,7 @@ h2{
 h3 {
   font-size: 20px;
   font-weight: 500;
+  padding-left: 30px;
 }
 
 p, li {
@@ -27,7 +28,7 @@ p, li {
   vertical-align: middle;
   line-height: 100%;
   font-size: 20px;
-  padding: 0px;
+  padding-left: 30px;
   color: black;
 }
 
