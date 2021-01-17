@@ -15,74 +15,82 @@ var page = "text";
             return;
         }
         else if (grade == "Grade 9" && subject == "Science") {
-                window.location.pathname='C:/Users/Delta/Documents/code/GitHub/HTNE2021/index2.html';
+                window.location.pathname='HTNE2021/index2.html';
             return;
         }
         else if (grade == "Grade 9" && subject == "English") {
-               window.location.pathname='C:/Users/Delta/Documents/code/GitHub/HTNE2021/index2.html';
+               window.location.pathname='HTNE2021/index2.html';
             return;
         }
         else if (grade == "Grade 9" && subject == "Social Studies") {
-                window.location.pathname='C:/Users/Delta/Documents/code/GitHub/HTNE2021/index2.html';
+                window.location.pathname='HTNE2021/index2.html';
             return;
         }
-        location = "index2.html";
-        return;
     }
 
     if (grade == "Grade 10") {
         if (grade == "Grade 10" && subject == "Math") {
-            page="index3.html#math"
-            return
+                window.location.pathname='HTNE2021/index3.html';
+                return;
         }
         if (grade == "Grade 10" && subject == "Science") {
-            page="index3.html#Science"
-            return
+                window.location.pathname='HTNE2021/index3.html';
+                return;
         }
         if (grade == "Grade 10" && subject == "English") {
-            page="index3.html#English"
-            return
+                window.location.pathname='HTNE2021/index3.html';
+                return;
         }
         if (grade == "Grade 10" && subject == "Social Studies") {
-            page="index3.html#Social_Studies"
-            return
+                window.location.pathname='HTNE2021/index3.html';
+                return;
         }
-        location = "index3.html";
-        return;
+
     }
 
     if (grade == "Grade 11") {
         if (grade == "Grade 11" && subject == "Math") {
-            page="index2.html#math"
+                window.location.pathname='HTNE2021/index4.html';
+                return;
         }
         if (grade == "Grade 11" && subject == "Science") {
-            
+                window.location.pathname='HTNE2021/index4.html';
+                return;
+    
         }
         if (grade == "Grade 11" && subject == "English") {
-            
+                window.location.pathname='HTNE2021/index4.html';
+                return;
+    
         }
         if (grade == "Grade 11" && subject == "Social Studies") {
-            
+                window.location.pathname='HTNE2021/index4.html';
+                return;
+    
         }
-        location = "index4.html";
-        return;
+
     }
 
     if (grade == "Grade 12") {
         if (grade == "Grade 12" && subject == "Math") {
-            page="index2.html#math"
+                window.location.pathname='HTNE2021/index5.html';
+                return;
         }
         if (grade == "Grade 12" && subject == "Science") {
-            
+                window.location.pathname='HTNE2021/index5.html';
+                return;
+    
         }
         if (grade == "Grade 12" && subject == "English") {
-            
+                window.location.pathname='HTNE2021/index5.html';
+                return;
+    
         }
         if (grade == "Grade 12" && subject == "Social Studies") {
-            
+                window.location.pathname='HTNE2021/index5.html';
+                return;
+    
         }
-        location = "index5.html";
-        return;
     }
 
 }
