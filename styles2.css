@@ -40,7 +40,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-left: -75px;
+  margin-left: -80px;
 }
 
 #title {
@@ -56,7 +56,7 @@ a {
 
 #content {
     height: 90vw;
-    width: 95%;
+    width: 85%;
     margin: auto;
 }
 
