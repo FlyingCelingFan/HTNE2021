@@ -6,37 +6,59 @@ body {
 }
 
 /*Styles the whole navigation bar*/
-.navbar {
-    overflow: hidden;
-    background-color: #36383f;
-    position: sticky;
-    top: 0;
+#banner {
+    background: #36383f;
     height: 100px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-/*padding for the logo/website name to be spaced away from the other links*/
-#logo {
-    object-fit: cover;
-    transform: scale(0.2);
-  }
-
-  .res:hover{
-    background-color: #2C2F33;
-    color: white; 
-}
-
+  
 .img-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 10%;
 }
+  
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: -80px;
+}
+  
+#title {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+  
+#logo {
+    object-fit: cover;
+    transform: scale(0.2);
+}
+
+a {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+#begin {
+    margin-top: 30px;
+    padding: 3px 3px;
+}
 
 /*style link box*/
-.navbar a {     
-    float: left;
-    display: block;
+.navbar a {  
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /*text color*/
     color: white;
     text-align: center;
