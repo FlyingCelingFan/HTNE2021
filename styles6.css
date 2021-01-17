@@ -45,8 +45,13 @@ a {
     color: white;
     text-align: center;
     text-decoration: none;
+    transition: 1s ease;
+    font-weight: bold;
 }
 
+a:hover{
+    color: #A9A9A9;
+}
 
 #begin {
     margin-top: 30px;
